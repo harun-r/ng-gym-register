@@ -19,7 +19,7 @@ import { UserDetailComponent } from './components/user-detail/user-detail.compon
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatModule
+    MatModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
