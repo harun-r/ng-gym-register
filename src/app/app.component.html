@@ -1,10 +1,12 @@
 <!-- Header -->
 <mat-toolbar color="accent">
-  <button mat-icon-button>
+  <button routerLink="/" mat-icon-button>
     <mat-icon>sports_gymnastics</mat-icon>
   </button>
   <span class="font-s-14 mr-auto">GYM REGISTRATION</span>
-  <button mat-flat-button color="primary" class="text-uppercase">enquirie lists</button>
+  <button routerLink="/enq-list" mat-flat-button color="primary" class="text-uppercase">enquirie lists</button>
 </mat-toolbar>
 <!-- Router View -->
-<router-outlet />
+<div class="container py-10">
+  <router-outlet />
+</div>
