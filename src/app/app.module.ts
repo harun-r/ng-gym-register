@@ -8,6 +8,7 @@ import { MatModule } from './mat/mat.module';
 import { RegComponent } from './components/reg/reg.component';
 import { EnqListComponent } from './components/enq-list/enq-list.component';
 import { UserDetailComponent } from './components/user-detail/user-detail.component';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { UserDetailComponent } from './components/user-detail/user-detail.compon
     AppRoutingModule,
     BrowserAnimationsModule,
     MatModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
